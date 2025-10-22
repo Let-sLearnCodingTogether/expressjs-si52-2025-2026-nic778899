@@ -1,25 +1,24 @@
 {
-  "name": "expressjs-si52-2025-2026-nic778899",
+  "name": "dhe1810",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon app.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Let-sLearnCodingTogether/expressjs-si52-2025-2026-nic778899.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Let-sLearnCodingTogether/expressjs-si52-2025-2026-nic778899/issues"
-  },
-  "homepage": "https://github.com/Let-sLearnCodingTogether/expressjs-si52-2025-2026-nic778899#readme",
   "dependencies": {
-    "ejs": "^3.1.10",
+    "bcrypt": "^6.0.0",
     "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.1",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1"
+  },
+  "devDependencies": {
     "nodemon": "^3.1.10"
   }
 }
